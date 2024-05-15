@@ -1,0 +1,14 @@
+<script>
+    let nome = prompt("qual seu nome?")
+    let nascimento = prompt("qual sua data de nascimento?")
+    const anoatual = 2024;
+
+    function idade(nascimento){
+       let resultado = anoatual- nascimento; 
+       return resultado;
+    }
+    let idade02 = idade(nascimento); 
+    
+    document.write("Eai mano Sodré, como vc está? "+ nome +"<br>"+" sua idade é " + idade02);
+ 
+</script>
